@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#blog {
+  /* border: 2px 2px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(3, 700px);
+  grid-gap: 25px;
+}
+.article {
+  margin-top: 3%;
+  margin-left: 3%;
+  padding: 3%;
+  text-align: center;
+  box-shadow: 3px 3px rgb(119, 116, 116);
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 20px;
+}
+.article img {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+.article:hover {
+  background-color: palevioletred;
+}
